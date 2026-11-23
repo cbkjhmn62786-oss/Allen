@@ -1,65 +1,63 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>你的姓名 | 個人空間</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102e54">
+  <meta name="description" content="走進艾莎的冰雪魔法世界，探索屬於你的冬日奇蹟。">
+  <title>Elsa · 冰雪魔法世界</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">PORTFOLIO</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+  <div class="snowfall" aria-hidden="true"></div>
+  <nav class="navbar" aria-label="主選單">
+    <div class="container nav-inner">
+      <a href="#home" class="logo"><span class="logo-mark">❄</span> ELSA <span class="logo-sub">THE SNOW QUEEN</span></a>
+      <button class="menu-toggle" aria-label="開啟選單" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#about">冰雪故事</a></li>
+        <li><a href="#magic">魔法世界</a></li>
+        <li><a href="#wish">冬日心願</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <header class="hero" id="home">
+      <div class="aurora aurora-one"></div><div class="aurora aurora-two"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <div class="eyebrow"><span>✧</span> A WORLD OF ICE & WONDER <span>✧</span></div>
+        <div class="hero-emblem" aria-hidden="true">❄</div>
+        <p class="hero-intro">WELCOME TO THE KINGDOM OF</p>
+        <h1 class="hero-name">ELSA</h1>
+        <div class="ornament"><span></span> ❄ <span></span></div>
+        <h2 class="hero-chinese">讓魔法，隨雪花綻放</h2>
+        <p class="hero-tagline">在銀白色的夢境裡，聆聽風雪的低語。<br>勇敢做自己，讓心中的光芒照亮整個冬天。</p>
+        <div class="hero-btns">
+          <a href="#about" class="btn btn-primary">探索冰雪王國 <span>✧</span></a>
+          <a href="#magic" class="btn btn-secondary">發現魔法 <span>→</span></a>
         </div>
-    </nav>
-
-    <header class="hero">
-        <div class="container">
-            <h1 class="hero-name">你好，我是 <span class="highlight">你的姓名</span></h1>
-            <p class="hero-tagline">專注於 [領域] 的開發者，熱衷於將複雜問題轉化為簡潔、有溫度的數位體驗。</p>
-            <div class="hero-btns">
-                <a href="#work" class="btn btn-primary">View Work</a>
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
-        </div>
+      </div>
+      <div class="castle" aria-hidden="true"><div class="tower tower-left"></div><div class="tower tower-mid"></div><div class="tower tower-right"></div><div class="castle-base"></div></div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
     </header>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>
-                    這裡填入你的自我介紹。你可以提到你的專業背景，以及你提到的特質：珍惜長期陪伴的工具、對環境的感情，以及你如何將這份細膩觀察融入到你的作品中。
-                </p>
-                <p>
-                    目前我專注於探索 [技術 A] 與 [技術 B] 的結合，致力於打造高效且易用的產品。
-                </p>
-            </div>
-        </div>
+    <section id="about" class="section story-section">
+      <div class="container story-grid">
+        <div class="story-art" aria-hidden="true"><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><span class="art-snowflake">❄</span><span class="art-glint glint-one">✦</span><span class="art-glint glint-two">✧</span></div>
+        <div class="story-copy"><p class="section-kicker">THE STORY BEGINS</p><h2 class="section-title">每一片雪花<br>都有自己的<span>光芒</span></h2><div class="short-rule"></div><p>在遙遠的北方，有一座閃耀著冰晶光芒的王國。那裡的冬天不是寒冷的終點，而是一段關於勇氣、自由與愛的旅程。</p><p>就像艾莎的魔法一樣，真正的力量，來自接納獨一無二的自己。</p><a class="text-link" href="#magic">走進魔法世界 <span>↗</span></a></div>
+      </div>
     </section>
-
-    <section id="contact" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p class="contact-text">歡迎透過以下管道與我聯繫，一起聊聊有趣的合作機會！</p>
-            <div class="contact-links">
-                <a href="mailto:your-email@example.com" class="contact-item">Email</a>
-                <a href="https://github.com/your-username" target="_blank" class="contact-item">GitHub</a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-item">LinkedIn</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2026 你的姓名. All Rights Reserved.</p>
-        </div>
-    </footer>
+    <section id="magic" class="section magic-section"><div class="container"><p class="section-kicker centered">DISCOVER THE MAGIC</p><h2 class="section-title centered">冰雪中的<span>奇蹟</span></h2><p class="section-desc">每一個冬日瞬間，都藏著一點不可思議。</p><div class="magic-grid"><article class="magic-card"><div class="card-icon">❄</div><p class="card-number">01 /</p><h3>冰晶魔法</h3><p>讓細緻的雪花，在指尖綻放成閃耀的奇蹟。</p></article><article class="magic-card"><div class="card-icon">♢</div><p class="card-number">02 /</p><h3>冰雪城堡</h3><p>走進透明的水晶宮殿，遇見冬天最美的風景。</p></article><article class="magic-card"><div class="card-icon">✧</div><p class="card-number">03 /</p><h3>自由之心</h3><p>勇敢擁抱自己的獨特，讓內心的光自由閃耀。</p></article></div></div></section>
+    <section id="wish" class="section wish-section"><div class="container wish-inner"><div class="wish-symbol">❅</div><p class="section-kicker">MAKE A WINTER WISH</p><h2>讓這個冬天<br><em>充滿奇蹟</em></h2><p>閉上眼睛，許下一個只屬於你的冰雪心願。</p><button id="wish-button" class="btn btn-primary" type="button">施展冰雪魔法 ✨</button><p id="wish-message" class="wish-message" aria-live="polite"></p></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-brand">❄ ELSA</div><p>Where winter becomes magic.</p><small>冰雪主題粉絲創作網頁 · 非迪士尼官方網站</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
 
     <script src="script.js"></script>
 </body>
